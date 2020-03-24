@@ -1,7 +1,7 @@
 {
   "name": "02-homework",
   "version": "1.0.0",
-  "description": "",
+  "description": "EAT DA BURGERRR App that lets you not only name an imaginary burger, but you can pretend to eat it to and it stays in your digital belly until the end of time, or you delete it from the database.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^3.1.0"
-  }
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {}
 }

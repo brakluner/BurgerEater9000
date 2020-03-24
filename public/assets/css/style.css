@@ -1,3 +1,9 @@
+body {
+  background: linear-gradient(red, yellow, red);
+  font-family: 'Bellota', cursive;
+  color: #2af89e;
+  text-shadow: 3px 6px 2px #1e8af8, -3px -6px 2px #fdff61;
+}
 li {
   padding: 5px;
   margin: 5px;
@@ -16,4 +22,40 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+#rightTable {
+  align-self: right;
+  width: 40%;
+}
+#leftTable {
+  width: 40%;
+}
+.row {
+  margin:0 auto;
+	width: 960px;
+}
+#leftTable, #rightTable {
+  display: inline-block;
+	verticle-align: top;
+}
+h1 {
+  margin: 0 auto;
+  width: 50%;
+  font-size: 64px;
+}
+h2{
+  font-size: 48px;
+  color: #85ffc8;
+  font-family: 'Luckiest Guy';
+}
+h3{
+  font-size: 48px;
+  color: #85ffc8;
+  font-family: 'Luckiest Guy';
+  text-shadow: 220px 0 2px #00a6ff, 440px 0 6px #00a6ff, 660px 0 12px #00a6ff;
+}
+ul {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fd006c;
 }
